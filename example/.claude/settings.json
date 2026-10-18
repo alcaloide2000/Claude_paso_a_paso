@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker run *)",
+      "Bash(docker ps *)"
+    ],
+    "deny": [
+      "Bash(rm -rf data/*)"
+    ]
+  }
+}
