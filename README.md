@@ -95,6 +95,8 @@ A skill is a folder with a `SKILL.md` inside. Write it so it works in both Claud
 2. Save `.claude/skills/odm-run/SKILL.md`. See [`example/.claude/skills/odm-run/SKILL.md`](example/.claude/skills/odm-run/SKILL.md) and adapt the command to the one you actually use.
 3. Commit it: `git add .claude/skills && git commit -m "Add odm-run skill"`.
 
+For a fuller example built from a real project task, see [`example/.claude/skills/odm-concrete/SKILL.md`](example/.claude/skills/odm-concrete/SKILL.md). It picks ODM settings for low-texture concrete, runs the job, and checks the point cloud with Open3D, all from one self-contained file.
+
 Rules that keep the skill uploadable to the app:
 
 - Use only these frontmatter fields: `name`, `description`, `license`, `compatibility`, `metadata`, `allowed-tools`. Any other field, such as `argument-hint` or `context`, makes the app upload fail.
