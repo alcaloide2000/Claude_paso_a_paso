@@ -2,6 +2,8 @@
 
 Step-by-step guide to building a local Claude Code project with skills, and making those skills available in the Claude app. As of Oct 15, 2026.
 
+New to Claude Code? Start with [Claude Code essentials](ESSENTIALS.md): context, CLAUDE.md, plan mode, models, subagents, hooks, MCP and safety.
+
 ## Overview
 
 You keep skills in your project's git repository, upload each one to the Claude app once, and the app pushes it to every other place Claude runs. The sync only goes one way: from the app down to Claude Code, Cowork and cloud sessions.
